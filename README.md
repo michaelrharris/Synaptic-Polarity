@@ -1,7 +1,7 @@
 “Known Network.csv" - Network of known positive and negative connections from Fenyves et al., based on the Cook et al. connectome reconstruction
 
 
-“Connectome.csv” - Contact adjacency matrix for the entire verified space of connections, known and unknown, of the Cook et al. reconstruction
+“Connectome.csv” - Contact adjacency matrix for the entire verified space of connections of the Cook et al. reconstruction
 
 
 “ConnectomeEdgelist.csv” - The contact adjacency matrix "Connectome.csv" in edge-list format
