@@ -25,12 +25,6 @@
 "Kprime.csv" - Kronecker product of "X" and "Y" truncated to only include connections with known polarity 
 
 
-“SCM.py” - Implementation of the Spatial Connectome Model which produces the file "SCM_Predictions.csv"
-
-
-“Network Based Prediction Cross Validation.py” - Performs a 10-fold cross validation procedure using the SCM, SL3, SPA, and SL2 methods, and produces a precision rank plot like that of Figure 3, panel E in this work.
-
-
 "Source Data - Fenyves et al..xlsx" - Source data used in this work
 
 
@@ -41,3 +35,9 @@
 
 
 "Receptor Genes.csv" - Labels of the 42 receptor genes present in "Y", "O", and "O~" in ascending order
+
+
+“SCM.py” - Implementation of the Spatial Connectome Model which produces the file "SCM_Predictions.csv". Running this code requires the files "X.csv", "Y.csv", "Known Network.csv", "Connectome.csv", and "ConnectomeEdgelist.csv".
+
+
+“Network Based Prediction Cross Validation.py” - Performs a 10-fold cross validation procedure using the SCM, SL3, SPA, and SL2 methods, and produces a precision rank plot like that of Figure 3, panel E in this work. Running this code requires the files "X.csv", "Y.csv", "Known Network.csv", "Connectome.csv", and "ConnectomeEdgelist.csv".
