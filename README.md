@@ -1,25 +1,25 @@
-“Known Network.csv" - 295x295 network of known positive and negative connections
+“Known Network.csv" - Network of known positive and negative connections
 
 
-“Connectome.csv” - 295x295 contact adjacency matrix for the entire verified space of connections, known and unknown
+“Connectome.csv” - Contact adjacency matrix for the entire verified space of connections, known and unknown
 
 
-“ConnectomeEdgelist.csv” - the contact adjacency matrix in edge-list format
+“ConnectomeEdgelist.csv” - The contact adjacency matrix in edge-list format
 
 
-“X.csv” - 295x3 matrix of each of the 295 neurons of interest and their accompanying neurotransmitters
+“X.csv” - Each of the 295 neurons of interest and their accompanying neurotransmitters
 
 
-“Y.csv” - 295x42 matrix of each of the 295 neurons of interest and their accompanying receptor genes
+“Y.csv” - Each of the 295 neurons of interest and their accompanying receptor genes
 
 
-“O.csv” - 3x42 signed wiring rule network of interactions between neurotransmitters and receptor genes
+“O.csv” - Signed wiring rule network of interactions between neurotransmitters and receptor genes
 
 
 "ovec.csv" - Vector format of the updated signed wiring rule network produced by the SCM
 
 
-"O~.csv" - 3x42 matrix format of the updated signed wiring rule network produced by the SCM
+"O~.csv" - Matrix format of the updated signed wiring rule network produced by the SCM
 
 
 "Kprime.csv" - Kronecker product of X and Y truncated to only include connections with known polarity 
