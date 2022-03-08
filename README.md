@@ -25,7 +25,7 @@
 "Kprime.csv" - Kronecker product of X and Y truncated to only include connections with known polarity 
 
 
-“SCM.py” - Implementation of the Spatial Connectome Model which produces the file
+“SCM.py” - Implementation of the Spatial Connectome Model which produces the file "SCM_Predictions.csv"
 
 
 “Network Based Prediction Cross Validation.py” - performs a 10-fold cross validation procedure using the SCM, SL3, SPA, and SL2 methods, and produces a precision rank plot like that of Figure 3, panel E in this work.
