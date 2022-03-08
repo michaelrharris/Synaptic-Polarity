@@ -1,10 +1,10 @@
-“Known Network.csv" - Network of known positive and negative connections
+“Known Network.csv" - Network of known positive and negative connections from Fenyves et al., based on the Cook et al. connectome reconstruction
 
 
-“Connectome.csv” - Contact adjacency matrix for the entire verified space of connections, known and unknown
+“Connectome.csv” - Contact adjacency matrix for the entire verified space of connections, known and unknown, of the Cook et al. reconstruction
 
 
-“ConnectomeEdgelist.csv” - The contact adjacency matrix in edge-list format
+“ConnectomeEdgelist.csv” - The contact adjacency matrix "Connectome.csv" in edge-list format
 
 
 “X.csv” - Each of the 295 neurons of interest and their accompanying neurotransmitters
@@ -22,13 +22,13 @@
 "O~.csv" - Matrix format of the updated signed wiring rule network produced by the SCM
 
 
-"Kprime.csv" - Kronecker product of X and Y truncated to only include connections with known polarity 
+"Kprime.csv" - Kronecker product of "X" and "Y" truncated to only include connections with known polarity 
 
 
 “SCM.py” - Implementation of the Spatial Connectome Model which produces the file "SCM_Predictions.csv"
 
 
-“Network Based Prediction Cross Validation.py” - performs a 10-fold cross validation procedure using the SCM, SL3, SPA, and SL2 methods, and produces a precision rank plot like that of Figure 3, panel E in this work.
+“Network Based Prediction Cross Validation.py” - Performs a 10-fold cross validation procedure using the SCM, SL3, SPA, and SL2 methods, and produces a precision rank plot like that of Figure 3, panel E in this work.
 
 
 "Source Data - Fenyves et al..xlsx" - Source data used in this work
