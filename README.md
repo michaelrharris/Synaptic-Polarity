@@ -31,7 +31,7 @@
 “Network Based Prediction Cross Validation.py” - performs a 10-fold cross validation procedure using the SCM, SL3, SPA, and SL2 methods, and produces a precision rank plot like that of Figure 3, panel E in this work.
 
 
-"Source Data - Fenyves et al.csv" - Source data used in this work
+"Source Data - Fenyves et al..xlsx" - Source data used in this work
 
 
 "Neuron Tags.csv" - Labels of the 295 neurons present in "X", "Y", the known network, and connectome constructions in ascending order.
