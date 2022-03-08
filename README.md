@@ -37,7 +37,7 @@
 "Receptor Genes.csv" - Labels of the 42 receptor genes present in "Y", "O", and "O~" in ascending order
 
 
-“SCM.py” - Implementation of the Spatial Connectome Model which produces the file "SCM_Predictions.csv". Running this code requires the files "X.csv", "Y.csv", "Known Network.csv", "Connectome.csv", and "ConnectomeEdgelist.csv".
+“SCM.py” - Implementation of the Spatial Connectome Model which produces the results "SCM_Predictions.csv", in addition to the updated signed wiring rule networks "ovec" and "O~". Running this code requires the files "X.csv", "Y.csv", "Known Network.csv", "Connectome.csv", and "ConnectomeEdgelist.csv".
 
 
 “Network Based Prediction Cross Validation.py” - Performs a 10-fold cross validation procedure using the SCM, SL3, SPA, and SL2 methods, and produces a precision rank plot like that of Figure 3, panel E in this work. Running this code requires the files "X.csv", "Y.csv", "Known Network.csv", "Connectome.csv", and "ConnectomeEdgelist.csv".
